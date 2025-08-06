@@ -23,7 +23,7 @@ export const actions = {
     }
 
     // Проверяем пользователя в базе
-    const sql = 'SELECT * FROM user WHERE name = ? AND phone = ? LIMIT 1';
+    const sql = 'SELECT * FROM User WHERE name = ? AND phone = ? LIMIT 1';
     const [rows] = await pool.execute(sql, [name, phone]);
 
     if (rows.length === 0) {

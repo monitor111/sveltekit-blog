@@ -17,7 +17,7 @@ export const actions = {
     try {
       const hashedPassword = await bcrypt.hash(password, 10);
       
-      const sql = 'INSERT INTO user (name, email, password, phone) VALUES (?, ?, ?, ?)';
+      const sql = 'INSERT INTO User (name, email, password, phone) VALUES (?, ?, ?, ?)';
       const [result] = await pool.execute(sql, [name, email, hashedPassword, phone]);
       
     } catch (error) {
