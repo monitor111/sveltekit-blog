@@ -90,3 +90,28 @@ const config = {
 };
 
 export default config;
+
+
+
+
+
+
+
+
+
+Этот --- src\lib\db.js
+import mysql from 'mysql2/promise';
+
+export const pool = mysql.createPool({
+host: 'localhost',
+user: 'root',
+password: '',
+database: 'sveltekit_blog',
+waitForConnections: true,
+connectionLimit: 10,
+queueLimit: 0
+});
+
+
+
+.env --- поменяли последнюю строку , ту что была - закоментировали. 
