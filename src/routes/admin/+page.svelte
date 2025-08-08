@@ -86,7 +86,7 @@
         <thead class="table-dark">
           <tr>
             <th>#</th>
-            <th>Имя</th>
+            <th>Ім'я</th>
             <th>Email</th>
             <th>Дата регистрации</th>
           </tr>

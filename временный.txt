@@ -18,6 +18,12 @@ Db4free.net — бесплатный тестовый MySQL сервер (нел
 
 
 
+Это сама БД - на удаленном
+https://www.db4free.net/phpMyAdmin/index.php?route=/sql&pos=0&db=sveltekit_blog3&table=User
+
+
+
+
 
 
 Подключился к https://www.db4free.net/
@@ -115,3 +121,8 @@ queueLimit: 0
 
 
 .env --- поменяли последнюю строку , ту что была - закоментировали. 
+
+
+
+
+
